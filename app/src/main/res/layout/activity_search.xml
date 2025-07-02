@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Search Input -->
+    <EditText
+        android:id="@+id/etSearchKeyword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter City or State"
+        android:padding="10dp"
+        android:background="@android:color/darker_gray"/>
+
+    <!-- Advanced Filters Button -->
+    <Button
+        android:id="@+id/btnAdvancedFilters"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Advanced Filters"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:textColor="@android:color/white"/>
+
+    <!-- Advanced Filters (Initially Hidden) -->
+    <Spinner
+        android:id="@+id/spinnerSeverity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <Spinner
+        android:id="@+id/spinnerAgeGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <Spinner
+        android:id="@+id/spinnerGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <!-- Search Button -->
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:textColor="@android:color/white"/>
+
+    <!-- Search Results List -->
+    <ListView
+        android:id="@+id/listViewResults"
+        android:layout_width="wrap_content"
+        android:layout_height="516dp" />
+
+    <Button
+        android:id="@+id/btn_back_ppv"
+        android:layout_width="378dp"
+        android:layout_height="38dp"
+        android:backgroundTint="#050405"
+        android:text="Back"
+        android:textColor="@android:color/white" />
+</LinearLayout>

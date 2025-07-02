@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Nonfatal Firearm Injuries 2</string>
+    <string-array name="severity_options">
+        <item>All</item>
+        <item>Minor</item>
+        <item>Moderate</item>
+        <item>Severe</item>
+    </string-array>
+
+    <string-array name="age_group_options">
+        <item>All</item>
+        <item>0-17</item>
+        <item>18-30</item>
+        <item>31-50</item>
+        <item>50+</item>
+    </string-array>
+
+    <string-array name="gender_options">
+        <item>All</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+</resources>
